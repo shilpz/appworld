@@ -15,6 +15,10 @@
 		F57AC7EE1BE41CC600D7F437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57AC7EC1BE41CC600D7F437 /* LaunchScreen.storyboard */; };
 		F57AC7F91BE41CC700D7F437 /* A_FPromotionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57AC7F81BE41CC700D7F437 /* A_FPromotionsTests.m */; };
 		F57AC8041BE41CC700D7F437 /* A_FPromotionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57AC8031BE41CC700D7F437 /* A_FPromotionsUITests.m */; };
+		F57AC8121BE41D0D00D7F437 /* appwomenshorts.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC8111BE41D0D00D7F437 /* appwomenshorts.jpeg */; settings = {ASSET_TAGS = (); }; };
+		F57AC8141BE41F3D00D7F437 /* appwomenbrands.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC8131BE41F3D00D7F437 /* appwomenbrands.jpeg */; settings = {ASSET_TAGS = (); }; };
+		F57AC81A1BE4F7E600D7F437 /* WomenShorts.m in Sources */ = {isa = PBXBuildFile; fileRef = F57AC8191BE4F7E600D7F437 /* WomenShorts.m */; settings = {ASSET_TAGS = (); }; };
+		F57AC81D1BE4F80600D7F437 /* Apparels.m in Sources */ = {isa = PBXBuildFile; fileRef = F57AC81C1BE4F80600D7F437 /* Apparels.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		F57AC7FF1BE41CC700D7F437 /* A&FPromotionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A&FPromotionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57AC8031BE41CC700D7F437 /* A_FPromotionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A_FPromotionsUITests.m; sourceTree = "<group>"; };
 		F57AC8051BE41CC700D7F437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57AC8111BE41D0D00D7F437 /* appwomenshorts.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = appwomenshorts.jpeg; path = ../../../appwomenshorts.jpeg; sourceTree = "<group>"; };
+		F57AC8131BE41F3D00D7F437 /* appwomenbrands.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = appwomenbrands.jpeg; path = ../../../appwomenbrands.jpeg; sourceTree = "<group>"; };
+		F57AC8181BE4F7E600D7F437 /* WomenShorts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WomenShorts.h; sourceTree = "<group>"; };
+		F57AC8191BE4F7E600D7F437 /* WomenShorts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WomenShorts.m; sourceTree = "<group>"; };
+		F57AC81B1BE4F80600D7F437 /* Apparels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apparels.h; sourceTree = "<group>"; };
+		F57AC81C1BE4F80600D7F437 /* Apparels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apparels.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +116,13 @@
 				F57AC7E41BE41CC600D7F437 /* ViewController.h */,
 				F57AC7E51BE41CC600D7F437 /* ViewController.m */,
 				F57AC7E71BE41CC600D7F437 /* Main.storyboard */,
+				F57AC81B1BE4F80600D7F437 /* Apparels.h */,
+				F57AC81C1BE4F80600D7F437 /* Apparels.m */,
+				F57AC8181BE4F7E600D7F437 /* WomenShorts.h */,
+				F57AC8191BE4F7E600D7F437 /* WomenShorts.m */,
 				F57AC7EA1BE41CC600D7F437 /* Assets.xcassets */,
+				F57AC8131BE41F3D00D7F437 /* appwomenbrands.jpeg */,
+				F57AC8111BE41D0D00D7F437 /* appwomenshorts.jpeg */,
 				F57AC7EC1BE41CC600D7F437 /* LaunchScreen.storyboard */,
 				F57AC7EF1BE41CC600D7F437 /* Info.plist */,
 				F57AC7DE1BE41CC600D7F437 /* Supporting Files */,
@@ -244,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F57AC7EE1BE41CC600D7F437 /* LaunchScreen.storyboard in Resources */,
+				F57AC8121BE41D0D00D7F437 /* appwomenshorts.jpeg in Resources */,
 				F57AC7EB1BE41CC600D7F437 /* Assets.xcassets in Resources */,
+				F57AC8141BE41F3D00D7F437 /* appwomenbrands.jpeg in Resources */,
 				F57AC7E91BE41CC600D7F437 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F57AC7E61BE41CC600D7F437 /* ViewController.m in Sources */,
+				F57AC81A1BE4F7E600D7F437 /* WomenShorts.m in Sources */,
+				F57AC81D1BE4F80600D7F437 /* Apparels.m in Sources */,
 				F57AC7E31BE41CC600D7F437 /* AppDelegate.m in Sources */,
 				F57AC7E01BE41CC600D7F437 /* main.m in Sources */,
 			);
